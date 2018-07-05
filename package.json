@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-plugin-html-attributes",
+  "version": "0.0.0",
+  "keywords": [
+    "gatsby",
+    "plugin",
+    "html",
+    "attributes"
+  ],
+  "main": "gatsby-browser.js",
+  "author": "Kennedy Rose <krose@escaladesports.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/escaladesports/gatsby-plugin-html-attributes.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "esca-scripts build --dist './' --no-remove",
+    "prepublishOnly": "npm run build",
+    "reset": "esca-scripts reset",
+    "test": "npm run build && esca-scripts test",
+    "travis": "opn https://travis-ci.org/escaladesports/gatsby-plugin-html-attributes/branches"
+  },
+  "devDependencies": {
+    "esca-scripts": "^1.4.0",
+    "opn-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  }
+}
