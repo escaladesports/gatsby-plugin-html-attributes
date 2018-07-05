@@ -1,17 +1,20 @@
-# Gatsby Plugin Boilerplate
+# gatsby-plugin-html-attributes
 
-A simple Gatsby plugin boilerplate.
-
-## Getting started
-
-```bash
-git clone git@github.com:escaladesports/gatsby-plugin-boilerplate.git your-module
-cd your-module
-yarn
-yarn reset
-```
+A Gatsby plugin to easily add HTML attributes like `lang` or `xmlns`.
 
 ## Usage
 
-- `yarn test`: Run mocha tests
-- `yarn analyze`: View bundle sizes
+In your `gatsby-config.js` file, load in the plugin along with an object of any `<html>` attributes you want to add. Example:
+
+```javascript
+module.exports = {
+	plugins: [
+		{
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    }
+	]
+}
+```

@@ -5,7 +5,9 @@
     "gatsby",
     "plugin",
     "html",
-    "attributes"
+    "attributes",
+    "xmlns",
+    "lang"
   ],
   "main": "gatsby-ssr.js",
   "author": "Kennedy Rose <krose@escaladesports.com>",
