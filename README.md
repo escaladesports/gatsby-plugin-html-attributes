@@ -8,13 +8,13 @@ In your `gatsby-config.js` file, load in the plugin along with an object of any 
 
 ```javascript
 module.exports = {
-	plugins: [
-		{
+  plugins: [
+    {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
         lang: 'en'
       }
     }
-	]
+  ]
 }
 ```
