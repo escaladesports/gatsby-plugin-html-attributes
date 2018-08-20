@@ -2,6 +2,7 @@
   "name": "gatsby-plugin-html-attributes",
   "version": "1.0.4",
   "keywords": [
+    "gatsby-plugin",
     "gatsby",
     "plugin",
     "html",
